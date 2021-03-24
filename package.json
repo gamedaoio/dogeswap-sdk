@@ -1,16 +1,16 @@
 {
-  "name": "gamedao",
+  "name": "dogeswap-sdk",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "🛠 An SDK for building applications on top of Uniswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/gamedao/gamedao-sdk.git",
+  "repository": "https://github.com/gamedao/dogeswap-sdk.git",
   "keywords": [
-    "gamedao",
+    "dogeswap",
     "ethereum"
   ],
   "module": "dist/sdk.esm.js",
@@ -22,7 +22,7 @@
     "prepublishOnly": "tsdx build"
   },
   "gitpkg": {
-    "registry": "git@github.com:gamedao/gamedao-sdk.git"
+    "registry": "git@github.com:gamedao/dogeswap-sdk.git"
   },
   "dependencies": {
     "@uniswap/v2-core": "^1.0.0",
